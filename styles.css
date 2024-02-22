@@ -1,0 +1,81 @@
+body{
+    font-family: monaco;
+    background-color: hsla(222, 100%, 86%, 30%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.timeForm{ /* input box and submit button*/
+    margin: 50px;
+    margin-top: 60px;
+
+}
+.cityInput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: white;
+    color: hsl(215, 69%, 46%);
+    border: solid hsl(215, 69%, 46%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: hsl(215, 69%, 46%);
+    color: white;
+}
+.card{
+    background: linear-gradient(200deg, hsl(210, 84%, 23%), hsl(0, 0%, 80%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+h1{
+    margin-top: 0px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.cityDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+.dateDisplay, .weekdayDisplay{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.timeDisplay{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+.tzoneDisplay{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.errorDisplay{
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
